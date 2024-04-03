@@ -99,7 +99,7 @@ if __name__=='__main__':
             texto_cifrado = file.read()
             decifrador = ViginereBreaker()
             decifrador.decifra(texto_cifrado)
-            decifrador.save_plaintext_file('', f'plaintext{counter}.txt')
+            decifrador.save_plaintext_file('', diretorio_plaintext+f'plaintext{counter}.txt')
             
     # testes = [r'20201-teste1.txt', r'20201-teste2.txt']
     # idx = 1
